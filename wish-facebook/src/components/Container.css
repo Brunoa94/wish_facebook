@@ -1,0 +1,57 @@
+.main__container{
+    background-color:  rgb(22, 22, 22);
+    position:absolute;
+    top: 60px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    display:flex;
+}
+
+.left__side__bar{
+    flex:0.2;
+    overflow:scroll;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.feed__container{
+    flex:0.6;
+    overflow:scroll;
+}
+
+.right__side__bar{
+    flex:0.2;
+    overflow:scroll;
+}
+
+.perfil__options{
+    margin: 10px;
+    padding:5px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid darkgrey;
+    width: 85%;
+    display:flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.shortcut__options{
+    width:85%;
+    display:flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.shortcut__span__div{
+    display:flex;
+    flex-direction: row;
+    width:100%;
+}
+.shortcut__span__div span{
+    font-size: 20px;
+    color: darkgrey;
+    font-weight: 500;
+    padding: 5px;
+}

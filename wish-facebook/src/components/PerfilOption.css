@@ -1,0 +1,47 @@
+.perfil__option{
+    display:flex;
+    align-items: center;
+    padding:5px;
+    width: 100%;
+}
+
+.perfil__option:hover{
+    background-color:rgb(39, 39, 39);
+    border-radius: 10px;
+}
+
+.perfil__option span{
+    color: white;
+    font-size: 14px;
+    font-weight: 550;
+    padding:10px;
+}
+
+.perfil__option img{
+    width: 40px;
+}
+
+.perfil__option__avatar{
+    width:40px !important;
+    height: 40px !important;
+}
+
+.perfil__option__icon__div{
+    width:40px;
+    height:40px;
+    border-radius:50%;
+    background-color: rgb(58, 57, 57);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.perfil__option__icon{
+    font-size: 15px;
+    color: white;
+}
+
+.shortcut__option{
+    height: 35px;
+    border-radius: 7px;
+}

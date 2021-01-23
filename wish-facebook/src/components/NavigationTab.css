@@ -12,6 +12,9 @@
     border-bottom: 5px solid #1877f2;
 }
 
+.navigation__tab.selected:hover{
+    background-color: rgb(39, 39, 39);
+}
 
 .navigation__tab{
     flex:0.2;

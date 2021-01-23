@@ -1,6 +1,6 @@
 import './App.css';
-import Header from './components/layout/Header'
-import Container from './components/layout/Container'
+import Header from './components/Header'
+import Container from './components/Container'
 
 function App() {
   return (
