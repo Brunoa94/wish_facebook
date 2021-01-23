@@ -1,0 +1,118 @@
+.header{
+    width:100%;
+    background-color: rgb(22, 22, 22);
+    height: 60px;
+    display:flex
+}
+
+.login_options_bar{
+    flex:0.25;
+    display:flex;
+    align-items: center;
+}
+
+.login_options_bar span{
+    color: rgb(194, 191, 191);
+    font-size: 14px;
+    padding: 5px;
+}
+
+.options_items{
+    display:flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width:100%;
+}
+
+/* LEFT PART HEADER CSS */
+
+.logo_search_bar{
+    flex:0.3;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.logo_search_bar img{
+    width: 45px;
+}
+
+.search__div{
+    background-color:rgb(58, 57, 57);
+    border-radius:25px;
+    padding: 10px;
+    padding-right:50px;
+}
+
+.search__div form{
+    display:flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.search__div form input{
+    outline: none;
+    border: none;
+    background: none;
+    margin-left: 5px;
+    font-size: 15px;
+}
+
+.search__div form input::placeholder{
+    font-size:15px;
+    color: darkgrey;
+}
+
+.search__div > form > button{
+    outline: none;
+    border: none;
+    background: none;
+}
+
+.search__icon{
+    color:darkgrey;
+    font-size:20px;
+}
+
+
+/* TABS BAR */
+
+.navigation_tabs_bar{
+    flex:0.5;
+    display:flex;
+    width:80%;
+    align-items: center;
+    margin-right:15px;
+}
+
+.navigation__tab__icon{
+    color: darkgrey;
+    font-size: 25px;
+}
+
+.navigation__tab.selected .navigation__tab__icon{
+    color: #1877f2;
+    font-size: 25px;
+}
+
+.navigation__tab.selected:hover{
+    background-color: rgb(22, 22, 22);
+    border-radius: 0;
+}
+
+.navigation__tab.selected{
+    border-bottom: 5px solid #1877f2;
+}
+
+.navigation__tab{
+    flex:0.2;
+    height:55px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.navigation__tab:hover{
+    background-color:rgb(58, 57, 57);
+    border-radius:10px;
+}

@@ -1,0 +1,27 @@
+.navigation__tab__icon{
+    color: darkgrey;
+    font-size: 25px;
+}
+
+.navigation__tab.selected .navigation__tab__icon{
+    color: #1877f2;
+    font-size: 25px;
+}
+
+.navigation__tab.selected{
+    border-bottom: 5px solid #1877f2;
+}
+
+
+.navigation__tab{
+    flex:0.2;
+    height:55px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.navigation__tab:hover{
+    background-color:rgb(58, 57, 57);
+    border-radius:10px;
+}
