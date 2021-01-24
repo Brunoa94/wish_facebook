@@ -1,0 +1,99 @@
+.post__box{
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    width: 100%;
+    background-color: rgb(39, 39, 39);
+    border-radius: 10px;
+}
+
+.top__post__box{
+    display:flex;
+    width: 93%;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 12px;
+    padding-right: 0px;
+    padding-left: 0px;
+    left:0;
+    border-bottom: 1px solid darkgrey;
+}
+
+.top__post__box form{
+    background-color:rgb(58, 57, 57);
+    display:flex;
+    align-items: center;
+    border-radius:25px;
+    padding: 10px;
+    padding-right: 0px;
+    width:100%;
+    margin-left: 5px;
+}
+
+.top__post__box form input{
+    outline: none;
+    border: none;
+    background: none;
+    margin-left: 5px;
+    font-size: 15px;
+    width:100%;
+}
+
+.top__post__box form input::placeholder{
+    font-size:15px;
+    color: darkgrey;
+}
+
+.top__post__box > form > button{
+    outline: none;
+    border: none;
+    background: none;
+}
+
+.bottom__post__box{
+    width:93%;
+}
+
+.post__box__items{
+    display:flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.post__item{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    cursor:pointer;
+    width: 100%;
+}
+
+.post__item:hover{
+    background-color: rgb(58, 57, 57);
+    border-radius: 10px;
+}
+
+.post__item span{
+    color: darkgrey;
+    font-size: 15px;
+    font-weight: 550;
+}
+
+.post__item svg{
+    font-size: 30px;
+    padding: 10px;
+    padding-bottom: 15px;
+    padding-top: 15px;
+}
+
+.post__item__photo svg{
+    color: darkgreen;
+}
+
+.post__item__friends svg{
+    color: #1877f2;
+}
+
+.post__item__feelings svg{
+    color: darkorange;
+}

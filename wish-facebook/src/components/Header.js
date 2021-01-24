@@ -1,14 +1,14 @@
 import React, { useState } from 'react'
 import './Header.css'
 import Avatar from '@material-ui/core/Avatar';
-import OptionItem from './OptionItem'
+import OptionItem from './items/OptionItem'
 
 import { AiOutlinePlus, AiFillHome } from 'react-icons/ai'
 import { FaFacebookMessenger, FaBell, FaFlipboard, FaDesktop, FaStoreAlt } from 'react-icons/fa'
 import { GoTriangleDown, GoSearch } from 'react-icons/go'
 import { IoStorefrontOutline } from 'react-icons/io5'
 import { HiUserGroup } from 'react-icons/hi'
-import NavigationTab from './NavigationTab';
+import NavigationTab from './items/NavigationTab';
 
 function Header() {
     const [tab, setTab] = useState("home")
