@@ -122,3 +122,24 @@ export const avatar_icons =[
         "notOnline"
     ]
 ]
+
+export const text = "O Amanhã Por amor a ti correram muitas lágrimas. Tombaram muitos homens. E fecharam-se muitos destinos. Por amor a ti fez-se uma revolução sem balas crivadas. Por amor a ti fez-se renascer um povo, semeou-se a sua esperança e escreveu-se um futuro. Amanhã é tempo de honrar as lágrimas, os homens e os seus destinos. Amanhã, mais que qualquer outra coisa, é um dia de amar o povo e o seu direito a escolher a liberdade. Por tudo isto, cara Democracia, amanhã vou votar."
+
+export const posts = [
+    {
+        avatar:"https://scontent.fopo1-1.fna.fbcdn.net/v/t31.0-8/12240308_10207590645182654_6527767063056341391_o.jpg?_nc_cat=110&ccb=2&_nc_sid=09cbfe&_nc_eui2=AeGeBLHB5RaGqjk3QLSqO5JmQoSM9EzSJ1hChIz0TNInWGxyQ1EPnILWPDnpFgPXkiw&_nc_ohc=LA7VPqJqbQAAX8OM0Jy&_nc_ht=scontent.fopo1-1.fna&oh=a2a616af3923165354f54437222c44e9&oe=60312706",
+        username:"Bruno Afonso",
+        date: "7h",
+        text: "O Amanhã. \n Por amor a ti correram muitas lágrimas. Tombaram muitos homens. E fecharam-se muitos destinos. Por amor a ti fez-se uma revolução sem balas crivadas. Por amor a ti fez-se renascer um povo, semeou-se a sua esperança e escreveu-se um futuro.\nAmanhã é tempo de honrar as lágrimas, os homens e os seus destinos. Amanhã, mais que qualquer outra coisa, é um dia de amar o povo e o seu direito a escolher a liberdade.\nPor tudo isto, cara Democracia, amanhã vou votar. E vou porque desejo ardentemente que voltes a ser o que eras, que te aproximes dos que te veneraram sempre, que não te deixes enganar por quem engana em teu nome, que voltes a semear a confiança e que penses numa coisa muito séria: tu és o povo e o povo és tu.\nAmanhã vou votar…Como sempre! E gostaria muito que, por amor a ti, todos fossem.",
+        isLink: "True",
+        emojis:[
+            "like", "laugh", "hearth"
+        ],
+        emojis_number: "4 m",
+        comments_number: "30",
+        share_number: "4",
+        link_website: "jornalAcores0.PT",
+        link_title: "Padaria na Relva encerrada por falta de condições de higiene e perigo para a saúde pública",
+        img_src:"https://scontent.fopo1-1.fna.fbcdn.net/v/t1.0-9/141723005_3961708247180729_6448221626391059147_n.jpg?_nc_cat=105&ccb=2&_nc_sid=730e14&_nc_eui2=AeFpeqf3hKQfdkjXYKWiqqyKj4BN3wCVmVyPgE3fAJWZXMNqwQzXh15R8dMu7vPhpbQ&_nc_ohc=F7ArJ_BRBOYAX8gHPNH&_nc_ht=scontent.fopo1-1.fna&oh=1b334f75c9b9c224c1381b642bc57ac2&oe=60393507"
+    },
+]

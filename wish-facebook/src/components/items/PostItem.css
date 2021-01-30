@@ -1,0 +1,201 @@
+.post__item{
+    width:100%;
+    background-color: rgb(39, 39, 39);
+    border-radius: 10px;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.post__header .circle__button .avatar__icon{
+    height: 30px !important;
+    width: 30px !important;
+}
+
+.post__header .circle__button{
+    height: 38px;
+    width: 38px;
+    background-color: #1877f2;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.post__header{
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    width: 95%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.post__informations{
+    display:flex;
+    flex-direction: column;
+    padding-left: 5px;
+}
+
+.post__username{
+    padding-bottom: 3px;
+    color:rgb(231, 229, 229);
+    font-weight: 600;
+    font-size: 15px;
+}
+
+.world__icon{
+    font-size:14px !important;
+    color: darkgrey;
+}
+
+.date__world{
+    display:flex;
+    align-items: center;
+    color: darkgrey;
+}
+
+.date__world .point{
+    padding-left: 3px;
+    padding-right: 3px;
+}
+
+.date{
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.date__world svg{
+    padding: 0 !important;
+}
+.more__icon{
+    margin-left: auto;
+    font-size: 17px;
+    color: darkgrey;
+
+}
+
+.post__text__box{
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.post__text__box span{
+    color: white;
+}
+
+.post__img__box{
+    margin-top:25px;
+    background-color:rgb(58, 57, 57);;
+}
+
+.post__img__box img{
+    width:100%;
+    max-height: 350px;
+}
+
+.post__interactions__box{
+    width: 90%;
+    border-bottom: 1px solid rgb(126, 125, 125);
+    margin-top: 10px;
+    margin-bottom: 10px;
+    display:flex;
+    align-items: center;
+}
+
+.post__interactions__box span{
+    font-size: 16px;
+    color: darkgray;
+    padding-left: 5px;
+}
+
+.post__interaction__emoji{
+    display: flex;
+    align-items: center;
+    padding-bottom: 10px;
+}
+
+.post__interaction__emoji img{
+    width: 18px;
+}
+
+.interaction__emoji{
+    background-color: black;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: -3px;
+}
+
+.post__sharings{
+    padding-bottom: 10px;
+    margin-left: auto;
+}
+
+.post__sharings span{
+    font-size: 15px;
+}
+
+.post__activities{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width:90%;
+    padding-bottom: 5px;
+}
+
+.post__activity{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    width:100%;
+    padding:10px;
+    cursor: pointer;
+}
+
+.post__activity span{
+    font-size: 18px;
+    color: darkgray;
+    font-weight: 500;
+    padding-left: 5px;
+}
+
+.post__activity .activity__icon{
+    font-size: 22px;
+    color: darkgray;
+}
+
+.post__activity:hover{
+    background-color: rgb(58, 57, 57);
+    border-radius: 10px;
+}
+
+.link__header{
+    height: 75px;
+    background-color: rgb(58, 57, 57);
+    width: 100%;
+    display:flex;
+    flex-direction: column;
+    padding-top: 5px;
+}
+
+.link__header span{
+    padding-left: 15px;
+}
+
+.link__header .link__website{
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: 500;
+    color:darkgray;
+}
+
+.link__header .link__title{
+    font-size: 19px;
+    font-weight: 500;
+    color: rgb(231, 231, 231)
+}

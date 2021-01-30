@@ -5,9 +5,12 @@ import {BsChevronDown,  BsFillCameraVideoFill} from 'react-icons/bs'
 import {FaArrowRight} from 'react-icons/fa'
 import HistoryItem from './items/HistoryItem'
 import PostBox from './items/PostBox'
-import { avatar, perfil_options, shortcuts, history_items, avatar_icons } from './mock_data'
+import { avatar, perfil_options, shortcuts, history_items, avatar_icons, posts } from './mock_data'
 import AvatarIcon from './items/AvatarIcon'
+import PostItem from './items/PostItem'
+import RightSideBar from './RightSideBar'
 
+const text= "O Amanhã. \n Por amor a ti correram muitas lágrimas. Tombaram muitos homens. E fecharam-se muitos destinos. Por amor a ti fez-se uma revolução sem balas crivadas. Por amor a ti fez-se renascer um povo, semeou-se a sua esperança e escreveu-se um futuro.\nAmanhã é tempo de honrar as lágrimas, os homens e os seus destinos. Amanhã, mais que qualquer outra coisa, é um dia de amar o povo e o seu direito a escolher a liberdade.\nPor tudo isto, cara Democracia, amanhã vou votar. E vou porque desejo ardentemente que voltes a ser o que eras, que te aproximes dos que te veneraram sempre, que não te deixes enganar por quem engana em teu nome, que voltes a semear a confiança e que penses numa coisa muito séria: tu és o povo e o povo és tu.\nAmanhã vou votar…Como sempre! E gostaria muito que, por amor a ti, todos fossem."
 
 function Container() {
     return (
@@ -56,7 +59,7 @@ function Container() {
                     <div className="room__contacts">
                         {
                             avatar_icons.map(
-                                item => <AvatarIcon avatar_src={item[0]} isOnline={item[1]}></AvatarIcon>
+                                item => <AvatarIcon avatar_src={item[0]} type="small_simple"></AvatarIcon>
                             )
                         }
                     </div>  
@@ -64,9 +67,17 @@ function Container() {
                         <FaArrowRight className="arrow_avatar"></FaArrowRight>
                     </div>        
                 </div>
+                <div className="feed__posts">
+                    {
+                        posts.map(
+                            post => <PostItem img_src={post.img_src} avatar={post.avatar} username={post.username} date={post.date} text={post.text}
+                            isLink={post.isLink} emojis={post.emojis} emojis_number={post.emojis_number} comments_number={post.comments_number} share_number={post.share_number}></PostItem>
+                        )
+                    }
+                </div>
             </div>
             <div className="right__side__bar">
-                <span>right</span>
+                <RightSideBar></RightSideBar>
             </div>
         </div>
     )

@@ -24,7 +24,7 @@ function PostBox() {
                     {
                         post_items.map(
                             item => 
-                            <div key={item[2]} className ={`post__item post__item__${item[2]}`}>
+                            <div key={item[2]} className ={`post__option post__item__${item[2]}`}>
                                 {item[0]}
                                 <span>{item[1]}</span>
                             </div>

@@ -1,6 +1,7 @@
 import React from 'react'
 import './HistoryItem.css'
 import Avatar from '@material-ui/core/Avatar';
+import AvatarIcon from './AvatarIcon'
 
 function HistoryItem({img_src, avatar}) {
     return (

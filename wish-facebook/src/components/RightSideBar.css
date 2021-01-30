@@ -1,0 +1,42 @@
+.sponsors__container{
+    display:flex;
+    flex-direction: column;
+    margin: 20px;
+    padding-bottom: 15px;
+    border-bottom: 1px solid rgb(128, 126, 126);
+}
+
+.sponsors__title{
+    font-size: 18px;
+    font-weight: 600;
+    color:darkgrey;
+    padding-bottom: 5px;
+}
+
+.brand__container{
+    padding-top: 5px;
+    display:flex;
+    align-items: center;
+}
+
+.brand__container img{
+    width: 100px;
+    border-radius: 10px;
+}
+
+.brand__informations{
+    display:flex;
+    flex-direction: column;
+    padding-left: 5px;
+}
+
+.brand__informations .brand__title{
+    font-size: 15px;
+    font-weight: 500;
+    color: rgb(221, 219, 219)
+}
+
+.brand__informations .brand__url{
+    color:darkgrey;
+    font-size: 13px;
+}

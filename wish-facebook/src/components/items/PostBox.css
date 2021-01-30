@@ -62,7 +62,7 @@
     align-items: center;
 }
 
-.post__item{
+.post__option{
     display:flex;
     justify-content: center;
     align-items: center;
@@ -70,18 +70,18 @@
     width: 100%;
 }
 
-.post__item:hover{
+.post__option:hover{
     background-color: rgb(58, 57, 57);
     border-radius: 10px;
 }
 
-.post__item span{
+.post__option span{
     color: darkgrey;
     font-size: 15px;
     font-weight: 550;
 }
 
-.post__item svg{
+.post__option svg{
     font-size: 30px;
     padding: 10px;
     padding-bottom: 15px;
