@@ -59,7 +59,7 @@ function Container() {
                     <div className="room__contacts">
                         {
                             avatar_icons.map(
-                                item => <AvatarIcon avatar_src={item[0]} type="small_simple"></AvatarIcon>
+                                item => <AvatarIcon avatar_src={item[0]} type={item[1]} isFor="chat"></AvatarIcon>
                             )
                         }
                     </div>  

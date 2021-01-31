@@ -1,7 +1,14 @@
+.right__side__container{
+    margin-left: 50px;
+    margin-right:20px;
+    margin-top: 20px;
+    overflow:hidden;
+}
+
 .sponsors__container{
     display:flex;
     flex-direction: column;
-    margin: 20px;
+    margin-bottom: 5px;
     padding-bottom: 15px;
     border-bottom: 1px solid rgb(128, 126, 126);
 }
@@ -40,3 +47,180 @@
     color:darkgrey;
     font-size: 13px;
 }
+
+.friend__requester{
+    cursor:pointer;
+    padding-left:5px;
+    padding-right: 5px;
+}
+
+.friend__requester:hover{
+    background-color: rgb(58, 57, 57);
+    border-radius: 10px;
+}
+
+.friends__request__header{
+    display:flex;
+    align-items:center;
+}
+
+.friends__request__header .title{
+    font-size: 18px;
+    font-weight: 600;
+    color:darkgrey;
+}
+
+.friends__request__header .show__all{
+    margin-left: auto;
+    font-size: 13px;
+    color: #1877f2;
+    padding: 12px;
+    cursor: pointer;
+}
+
+.friends__request__container{
+    padding-bottom: 15px;
+    border-bottom: 1px solid rgb(128, 126, 126);
+    margin-bottom: 5px;
+}
+
+.friends__request__container .show__all:hover{
+    background-color: rgb(58, 57, 57);
+    border-radius: 8px;
+}
+
+.friend__requester{
+    display:flex;
+    padding-top:10px;
+}
+
+.friend__requester__details{
+    width: 100%;
+}
+
+.common__friends span{
+    margin-top: 10px;
+    color:darkgray;
+    font-size:13px;
+    font-weight: 400;
+}
+
+.common__friends{
+    padding-top:3px;
+}
+
+.friend__requester__first__line{
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.friend__requester__details .friend__requester__name{
+    color: rgb(223, 221, 221); 
+    font-weight: 600;
+}
+
+.friend__requester__first__line .request__time{
+    margin-left: auto;
+    color: darkgray;
+}
+
+.friend__requester__details{
+    padding-left: 10px;
+}
+
+.friend__requester__details .request__button{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    width:100%;
+    margin-top:10px;
+}
+
+.request__button span{
+    color:rgb(223, 223, 223);
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.friend__requester__details .request__button.confirm{
+    background-color: #1877f2;
+    border-radius:10px;
+}
+
+.friend__requester__details .request__button.reject{
+    background-color: rgb(39, 39, 39);;
+    border-radius:10px;
+    margin-bottom: 5px;
+}
+
+.birthdays__container{
+    margin-top: 12px;
+}
+
+.birthdays__title{
+    font-size: 18px;
+    font-weight: 600;
+    color:darkgrey;
+}
+
+.birthdays__container{
+    border-bottom: 1px solid rgb(128, 126, 126);
+}
+
+.birthdays__informations .birthday__gift{
+    color:#1877f2;
+    font-size: 50px;
+}
+
+.birthdays__informations{
+    display:flex;
+    align-items: center;
+    padding-top:10px;
+    padding-bottom:10px;
+}
+
+.birthdays__informations span{
+    padding-right: 10px;
+    padding-left: 10px;
+    color: rgb(202, 199, 199);
+    font-size:15px;
+    font-weight: 600;
+}
+
+.contacts__container{
+    margin-top: 12px;
+}
+
+.contacts__headers .contacts__title{
+    font-size: 18px;
+    font-weight: 600;
+    color:darkgrey;
+}
+
+.contacts__container{
+    padding-top:10px;
+}
+
+.contact__chat{
+    display:flex;
+    align-items: center;
+    padding-top:5px;
+    padding-bottom: 5px;
+    cursor: pointer;
+}
+
+.contact__chat:hover{
+    background-color: rgb(58, 57, 57);
+    border-radius: 10px; 
+}
+
+.contact__chat .contact__name{
+    padding-left: 5px;
+    color: rgb(224, 223, 223);
+    font-size: 15px;
+    font-weight: 500;
+}
+
