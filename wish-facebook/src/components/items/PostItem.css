@@ -5,6 +5,7 @@
     display:flex;
     flex-direction: column;
     align-items: center;
+    margin-bottom: 15px;
 }
 
 .post__header .circle__button .avatar__icon{
@@ -82,7 +83,8 @@
 }
 
 .post__text__box span{
-    color: white;
+    color: rgb(243, 241, 241);
+    font-size: 15px;
 }
 
 .post__img__box{
@@ -175,12 +177,13 @@
 }
 
 .link__header{
-    height: 75px;
+    height: auto;
     background-color: rgb(58, 57, 57);
     width: 100%;
     display:flex;
     flex-direction: column;
     padding-top: 5px;
+    padding-bottom: 15px;
 }
 
 .link__header span{

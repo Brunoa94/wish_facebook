@@ -5,7 +5,7 @@
     display:flex;
 }
 
-.avatar__icon{
+.contact__avatar .avatar__icon{
     height: 37px !important;
     width: 37px !important;
 }
@@ -24,4 +24,19 @@
     right:3px;
     bottom:2px;
     border:1px solid black;
+}
+
+.circle__button{
+    height: 37px;
+    width: 37px;
+    background-color: #1877f2;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.circle__button .avatar__icon{
+    height: 32px !important;
+    width: 32px !important;
 }

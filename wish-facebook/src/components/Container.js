@@ -71,7 +71,8 @@ function Container() {
                     {
                         posts.map(
                             post => <PostItem img_src={post.img_src} avatar={post.avatar} username={post.username} date={post.date} text={post.text}
-                            isLink={post.isLink} emojis={post.emojis} emojis_number={post.emojis_number} comments_number={post.comments_number} share_number={post.share_number}></PostItem>
+                            isLink={post.isLink} emojis={post.emojis} emojis_number={post.emojis_number} comments_number={post.comments_number} share_number={post.share_number}
+                            link_website={post.link_website} link_title={post.link_title} has_history={post.has_history}></PostItem>
                         )
                     }
                 </div>

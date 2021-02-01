@@ -1,5 +1,6 @@
 import React from 'react'
 import Avatar from '@material-ui/core/Avatar';
+import AvatarIcon from './AvatarIcon'
 import './PostItem.css'
 import {BiWorld} from 'react-icons/bi'
 import {FaEllipsisH} from 'react-icons/fa'
@@ -24,13 +25,11 @@ function return_emoji(emoji){
     if (emoji == "cry") return cry_src
 }
 
-function PostItem({avatar, username, date, text, img_src, comments_number, share_number, emojis_number, emojis, isLink, link_website, link_title}) {
+function PostItem({avatar, username, date, text, img_src, comments_number, share_number, emojis_number, emojis, isLink, link_website, link_title, has_history}) {
     return (
         <div className="post__item">
             <div className="post__header">
-                <div className="circle__button">
-                    { avatar && <Avatar className="avatar__icon" src={avatar}></Avatar>}
-                </div>
+                <AvatarIcon avatar_src={avatar} type={has_history == "true" ? "history" : "notHistory"}></AvatarIcon>
                 <div className="post__informations">
                     <span className="post__username">{username}</span>
                     <div className="date__world">
@@ -47,8 +46,8 @@ function PostItem({avatar, username, date, text, img_src, comments_number, share
             </div> 
             <If test={isLink=="True"}>
                 <div className="link__header">
-                    <span className="link__website">jornalAcores0.PT</span>
-                    <span className="link__title">Padaria na Relva encerrada por falta de condições de higiene e perigo para a saúde pública</span>
+                    <span className="link__website">{link_website}</span>
+                    <span className="link__title">{link_title}</span>
                 </div>
             </If>
             <div className="post__interactions__box">
