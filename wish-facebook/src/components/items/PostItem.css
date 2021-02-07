@@ -89,12 +89,12 @@
 
 .post__img__box{
     margin-top:25px;
-    background-color:rgb(58, 57, 57);;
 }
 
 .post__img__box img{
     width:100%;
-    max-height: 350px;
+    max-height: 550px;
+    height: 100%;
 }
 
 .post__interactions__box{
@@ -182,8 +182,8 @@
     width: 100%;
     display:flex;
     flex-direction: column;
-    padding-top: 5px;
     padding-bottom: 15px;
+    padding-top: 5px;
 }
 
 .link__header span{
